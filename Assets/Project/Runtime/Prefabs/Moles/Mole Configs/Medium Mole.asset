@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b965231333f334e832b9edfbd271aa, type: 3}
+  m_Name: Medium Mole
+  m_EditorClassIdentifier: 
+  Appearance:
+    Prefab: {fileID: 5204909161226540283, guid: 018c7a9d89fb2934782e27be5a2678ca, type: 3}
+  Statistics:
+    Type: 1
+    Health: 50
+    Damage: 40
+    Speed: 2
+    PointMultiplier: 2
+    TimeToDisappear: 4
+  Effects:
+    ParticleOnDeath: {fileID: 2263453270304084841, guid: 596c5f6bef47fd24c93e2b09ba80182e, type: 3}
+    ParticleOnDisappear: {fileID: 8032392027941103731, guid: 0b8c1db4e29ee594a8b6960597d39757, type: 3}
